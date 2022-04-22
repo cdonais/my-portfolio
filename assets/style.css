@@ -1,0 +1,44 @@
+:root {
+    --dark-blue:#511ce2;
+    --grey: #828e8e;
+    --light-blue: #79c1f7;
+}
+.* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header {
+    padding: 20px 35px;
+    display: flex;
+    justify-content: space-between;
+    color: #79c1f7;
+}
+header nav {
+    margin: 7px 0;
+}
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+header nav ul li a {
+    padding: 10px 15px;
+    color: var(--light-blue);
+    text-decoration: none;
+}
+header nav ul li a:hover {
+    color: var(--dark-blue);
+    text-decoration: underline;
+}
+.run-buddy img {
+    max-height: 200px;
+}
+.horiseon img {
+    max-height: 200px;
+}
+body h1 {
+    color: #79c1f7;
+}
