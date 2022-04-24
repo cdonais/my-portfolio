@@ -1,18 +1,24 @@
 :root {
     --dark-blue:#511ce2;
-    --grey: #828e8e;
+    --grey: #d7e0e0;
     --light-blue: #79c1f7;
+    --pale-teal: #badcec;
 }
 .* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: var(--pale-teal);
 }
 header {
-    padding: 20px 35px;
+    padding: 40px 50px;
     display: flex;
     justify-content: space-between;
     color: #79c1f7;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-image: url(./images/pawel-czerwinski-SoB70WFVWGU-unsplash.jpg);
+    background-size: cover;
+    background-position: 80%;
 }
 header nav {
     margin: 7px 0;
@@ -35,10 +41,80 @@ header nav ul li a:hover {
 }
 .run-buddy img {
     max-height: 200px;
+    border-radius: 10%;
+    border: var(--light-blue) 10px solid;
+}
+.text-box {
+    position: absolute;
+    margin: auto;
+}
+.run-buddy img:hover{
+    border-color: var(--dark-blue);
 }
 .horiseon img {
     max-height: 200px;
+    border-radius: 10%;
+    border: var(--light-blue) 10px solid;
+}
+.horiseon img:hover {
+    border-color: var(--dark-blue);
+}
+.other-stuff img {
+    max-height: 200px;
+    border-radius: 10%;
+    border: var(--light-blue) 10px solid;
+}
+.other-stuff img:hover{
+    border-color: var(--dark-blue);
+}
+.also-this img {
+    max-height: 200px;
+    border-radius: 10%;
+    border: var(--light-blue) 10px solid;
+}
+.also-this img:hover{
+    border-color: var(--dark-blue);
 }
 body h1 {
     color: #79c1f7;
+}
+#about-me {
+    color: black;
+    text-align: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: var(--grey);
+    margin: 0;
+    border: none;
+}
+#about-me h2{
+    font-size: 40px;
+    border-bottom: solid 3px var(--light-blue);
+
+
+}
+#my-work {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: var(--dark-blue);
+    background-color: var(--grey);
+    margin: 0 auto;
+}
+#contact-me {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: var(--light-blue);
+}
+.float-right {
+    float: right;
+}
+.float-left {
+    float: left;
+}
+footer {
+    padding: 40px;
+    background-image: url(./images/pawel-czerwinski-SoB70WFVWGU-unsplash.jpg);
+    background-size: cover;
+    background-position: 20%;
 }
