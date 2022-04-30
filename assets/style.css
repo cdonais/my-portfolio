@@ -177,20 +177,7 @@ header nav ul li a:hover {
     color: var(--dark-blue);
     border-bottom: var(--light-blue) 3px solid;
 }
-    
-.float-right {
-    float: right;
-}
-.float-left {
-    float: left;
-}
-footer {
-    padding: 40px;
-    background-image: url(./images/adam-kring-EFRD6Cr7skc-unsplash.jpg);
-    background-size: cover;
-    background-position: 20%;
-    border: var(--dark-blue) solid 10px;
-}
+
 contact-me h3 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 28px;
@@ -209,4 +196,11 @@ contact-me h3 {
     font-size: 22px;
     color: var(--dark-grey);
 
+}
+footer {
+    padding: 40px;
+    background-image: url(./images/adam-kring-EFRD6Cr7skc-unsplash.jpg);
+    background-size: cover;
+    background-position: 20%;
+    border: var(--dark-blue) solid 10px;
 }

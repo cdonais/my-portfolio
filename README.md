@@ -10,5 +10,5 @@ A website to showcase my work, that I will continue to build on and add to.
 ## Website
 https://cdonais.github.io/my-portfolio/
 
-
+![screenshot of about me](./assets/images/screenshot1.jpg)
 
