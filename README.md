@@ -1,13 +1,13 @@
 # my-portfolio
 
-##Purpose
+## Purpose
 A website to showcase my work, that I will continue to build on and add to.
 
-##Built With
-*Html
-*CSS
+## Built With
+* Html
+* CSS
 
-##Website
+## Website
 https://cdonais.github.io/my-portfolio/
 
 
