@@ -10,18 +10,19 @@ header {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-image: url(./images/adam-kring-EFRD6Cr7skc-unsplash.jpg);
     background-size: cover;
     background-position: 80%;
-    padding-top: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding: 20px 50px;
+    border: var(--dark-blue) 10px solid;
 }
 header h1 {
-    color: var(--dark-grey);
-    font-size: 36px;
-}
-header nav {
-    margin: 7px 0;
+    color: white;
+    border-bottom: var(--dark-blue 5px solid);
+    font-size: 48px;
+    font-weight: bold;
+    font-style: italic;
 }
 header nav ul {
     display: flex;
@@ -31,9 +32,9 @@ header nav ul {
     list-style: none;
 }
 header nav ul li a {
-    padding: 10px 15px;
-    color: var(--dark-grey);
+    padding: 10px;
     text-decoration: none;
+    color: white;
     font-size: 28px;
 }
 header nav ul li a:hover {
@@ -81,20 +82,37 @@ header nav ul li a:hover {
     display: flex;
     flex-wrap: wrap;
     margin: auto;
+    justify-content: space-between;
 }
 .run-buddy {
     position: relative;
-    margin: auto;
+    margin-left: 25%;
+    width: 600px;
+    padding: 20px;
 }
 .run-buddy img {
     max-width: 600px;
     border: var(--light-blue) 10px solid;
     border-radius: 10%;
 }
-
 .run-buddy img:hover {
     border: var(--dark-blue) 10px solid;
+  
 }
+
+.runbuddy-text{
+    position: absolute;
+    background-color: var(--light-blue);
+    color: var(--dark-blue);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-style: italic;
+    border-radius: 10%;
+    border: var(--light-blue) 5px solid;
+    top: 50%;
+    margin-bottom: -25px;
+    font-size: 28px;
+}
+
 .robot-gladiators {
     position: relative;
     margin: auto;
@@ -102,7 +120,10 @@ header nav ul li a:hover {
 .robot-gladiators img {
     max-width: 300px;
     border: var(--light-blue) 10px solid;
-    border-radius: 10px;
+    border-radius: 10%;
+}
+.robot-gladiators img:hover {
+    border: var(--dark-blue) 10px solid;
 }
 .other-stuff {
     position: relative;
@@ -114,7 +135,7 @@ header nav ul li a:hover {
     border-radius: 10%;
 }
 .other-stuff img:hover {
-    border: var(--light-blue) 10px solid;
+    border: var(--dark-blue) 10px solid;
 }
 .other-stuff {
     position: relative;
@@ -130,7 +151,7 @@ header nav ul li a:hover {
     border-radius: 10%;
 }
 .coming-soon img:hover {
-    border: var(--light-blue) 10px solid;
+    border: var(--dark-blue) 10px solid;
 }
 
 .text-block {
@@ -141,12 +162,10 @@ header nav ul li a:hover {
     font-style: italic;
     border-radius: 10%;
     border: var(--light-blue) 5px solid;
+    top: 50%;
+    margin-bottom: -25px;
 }
 
-.text-block:hover {
-    background-color: var(--dark-blue);
-    color: var(--light-blue);
-}
 #contact-me {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color: var(--light-blue);
@@ -170,6 +189,7 @@ footer {
     background-image: url(./images/adam-kring-EFRD6Cr7skc-unsplash.jpg);
     background-size: cover;
     background-position: 20%;
+    border: var(--dark-blue) solid 10px;
 }
 contact-me h3 {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
